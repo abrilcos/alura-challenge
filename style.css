@@ -1,0 +1,147 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    background: #F4F2EC;
+}
+
+.header{
+    width:940px;
+}
+
+.logo{
+    width: 58px;
+    height: 55px;
+    margin: 20px;
+}
+
+
+.areatexto{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    margin: 50px 30px 0px 100px;
+    height: 10em;
+    width: 400px;
+    resize: none;
+    display: inline;
+    float: left;
+    background: #F4F2EC;
+    border: none;
+    border-radius: 10px;
+   
+}
+
+.columna{
+    float: left;
+    width: 940px;
+    margin: 0 auto;
+    width: 40%;
+    display: inline; 
+    
+
+}
+
+.contenidocolumna{
+    border-radius: 15px;
+    width: 400px;
+    height: 944px;
+    padding: 20px;
+    background: white;
+}
+    
+
+.imagenbuscar{
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    margin: 100px 100px 10px;
+}
+
+.tituloh2{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.parrafo{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: 15px;
+    font-style: italic;
+    margin: 1em 0 0;
+    height: 10em;
+    width: 400px;
+    resize: none;
+    display: inline;
+    float: left;
+    background: white;
+    border: none;
+    border-radius: 10px;
+}
+
+.botoncopiar{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    font-size: 15px;
+    color: #F4BA0D;
+    background: #FFF2BF;
+    border-color: #FFE67F;
+    border-radius: 10px;
+    margin-left: 33%;
+    margin-top: 90%;
+    padding: 24px;
+    width: 150px;
+    height: 50px;
+    display: none;
+}
+
+.mensaje{
+    clear:both;
+    font-size: 10px;
+    padding-left: 50px;    
+}
+
+.botones{
+    margin: 0 50px 0;
+}
+
+.botonencriptar{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    font-size: 15px;
+    color: #F4BA0D;
+    background: #FFE67F;
+    border-color: #FFE67F;
+    border-radius: 10px;
+    width: 200px;
+    height: 50px;
+    margin: 10px;
+}
+
+.botondesencriptar{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    font-size: 15px;
+    color: #F4BA0D;
+    background: #FFF2BF;
+    border-color: #FFE67F;
+    border-radius: 10px;
+    width: 200px;
+    height: 50px;
+    margin: 10px;
+}
+
+@media screen and (max-width:480px){
+    h1{
+        text-align: center;
+    }
+
+    nav{
+        position: static;
+    }
+    
+    .areatexto, .mensaje, .botones, .botondesencriptar, .botondesencriptar{
+        width: auto;
+    }
+    .columna{
+        width: 100%;
+    }
+}
